@@ -1,0 +1,28 @@
+{
+  "name": "demo-graphql",
+  "version": "1.0.0",
+  "description": "graphql demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec npx babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "rghernandez",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/node": "^7.16.8",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "apollo-server": "^3.6.4",
+    "apollo-server-express": "^3.6.4",
+    "apollo-server-plugin-response-cache": "^3.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "graphql": "^16.3.0",
+    "mongoose": "^6.2.6",
+    "uuid": "^8.3.2"
+  }
+}
